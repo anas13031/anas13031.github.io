@@ -1,0 +1,61 @@
+
+header {
+    background-color: rgba(163, 110, 30, 0.466);
+}
+
+h1 {
+    color: rgba(21, 19, 17, 0.466);
+}
+
+h2 {
+    color: rgb(177, 139, 44);
+}
+
+a[href$=".pk/"] {
+    background-color: rgb(241, 209, 170);
+}
+
+a[href^="mailto"] {
+    color: rgb(95, 64, 12);
+    font-weight: bold;
+}
+
+a[href^="tel"] {
+    color: darkgreen;
+}
+
+#main-header {
+    text-align: center;
+    background-color: rgba(179, 140, 72, 0.5);
+    padding: 10px;
+}
+
+#edu-info {
+    text-decoration: underline;
+}
+
+#main-footer {
+    text-align: center;
+    background-color: rgba(240, 220, 170, 0.5);
+    padding: 15px;
+}
+
+.marks:hover {
+    background-color: rgb(237, 204, 121);
+}
+ 
+h2::first-line {
+    font-size: 36px;
+}
+
+p::first-letter {
+    font-size: 32px;
+}
+
+header::first-line {
+    font-size: 40px;
+}
+
+img {
+    border: 10px solid rgb(79, 72, 53);
+}
