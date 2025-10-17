@@ -1,18 +1,44 @@
 
+body {
+    font-family: Arial, sans-serif;
+    color: brown;
+    margin: 20px;
+    background-image: url('img.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 header {
     background-color: rgba(163, 110, 30, 0.466);
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
 }
 
 h1 {
-    color: rgba(21, 19, 17, 0.466);
+    font-size: 40px;
+    margin: 10px 0;
 }
 
 h2 {
     color: rgb(177, 139, 44);
+    background-color: rgba(255, 228, 170, 0.4);
+    padding: 5px;
+    margin-top: 20px;
+}
+
+p {
+    margin: 10px 0;
+    background-color: rgba(255, 239, 210, 0.4);
+    padding: 10px;
 }
 
 a[href$=".pk/"] {
     background-color: rgb(241, 209, 170);
+    padding: 5px;
+    text-decoration: none;
 }
 
 a[href^="mailto"] {
@@ -25,25 +51,31 @@ a[href^="tel"] {
 }
 
 #main-header {
-    text-align: center;
     background-color: rgba(179, 140, 72, 0.5);
-    padding: 10px;
+    border-radius: 10px;
 }
 
 #edu-info {
     text-decoration: underline;
+    margin-top: 10px;
 }
 
 #main-footer {
     text-align: center;
     background-color: rgba(240, 220, 170, 0.5);
     padding: 15px;
+    margin-top: 25px;
+}
+
+.marks {
+    margin: 5px;
+    padding: 5px;
 }
 
 .marks:hover {
     background-color: rgb(237, 204, 121);
 }
- 
+
 h2::first-line {
     font-size: 36px;
 }
@@ -58,4 +90,24 @@ header::first-line {
 
 img {
     border: 10px solid rgb(79, 72, 53);
+    margin: 15px;
+}
+
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
 }
