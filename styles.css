@@ -126,22 +126,3 @@ body {
     padding: 25px;
     margin-top: 60px;
 }
-
-@media (max-width: 768px) {
-    #sidebar {
-        position: static;
-        width: auto;
-        margin: 15px;
-    }
-
-    .profile-pic {
-        float: none;
-        display: block;
-        margin: 0 auto 20px;
-    }
-
-    .card-container {
-        flex-direction: column;
-        align-items: center;
-    }
-}
